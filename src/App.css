@@ -27,15 +27,15 @@ body {
 }
 
 .about-img {
-  height: 240px;
-  width: 320px;
+  height: 250px;
+  max-width: 320px;
   object-fit: cover;
   padding: 1rem;
 }
 
 .projects-img {
-  height: 255px;
-  max-width: 340px;
+  height: 265px;
+  max-width: 380px;
   object-fit: cover;
   padding: 1rem;
 }
