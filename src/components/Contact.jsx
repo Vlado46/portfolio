@@ -40,7 +40,7 @@ const Contact = () => {
               component="form"
               ref={form}
               onSubmit={sendEmail}
-              width="50vw"
+              width={{ xs: "93%", md: "55vw" }}
               sx={{
                 "& .MuiTextField-root": { m: 2, width: "96%" },
               }}
@@ -70,7 +70,7 @@ const Contact = () => {
                 variant="contained"
                 color="secondary"
                 type="submit"
-                sx={{ m: 2, width: 150 }}
+                sx={{ m: 2, width: { xs: 280, md: 150 } }}
               >
                 <EmailIcon />
                 <Typography marginX={4}>Send</Typography>

@@ -16,7 +16,7 @@ const Footer = () => {
         marginTop={15}
       >
         <Typography variant="subtitle2">vladimirbaseski46@gmail.com</Typography>
-        <Box display="flex" gap={2}>
+        <Box display="flex" gap={{ xs: 0, md: 2 }}>
           <IconButton
             href="https://www.linkedin.com/in/vladimir-basheski-61a822254/"
             target="_blank"

@@ -19,8 +19,8 @@ const Projects = () => {
           Projects
         </Typography>
 
-        <Stack direction="row" spacing={3}>
-          <Stack padding={3} spacing={0.5}>
+        <Stack direction={{ xs: "column-reverse", md: "row" }} spacing={3}>
+          <Stack padding={1} spacing={0.5}>
             <Typography variant="h6">E-commerce App</Typography>
             <Typography variant="subtitle1">
               Focus of this app is frontend functionality of e-commerce page
@@ -28,7 +28,7 @@ const Projects = () => {
               fake-store-api and is fully responsive.
             </Typography>
             <Typography variant="subtitle1">Tech used:</Typography>
-            <Stack direction="row" spacing={1}>
+            <Stack direction="row" gap={1} display="flex" flexWrap="wrap">
               <Paper>
                 <Typography padding={1}>React</Typography>
               </Paper>
@@ -71,8 +71,12 @@ const Projects = () => {
           </Paper>
         </Stack>
 
-        <Stack direction="row" marginY={2} spacing={3}>
-          <Stack padding={3} spacing={0.5}>
+        <Stack
+          direction={{ xs: "column-reverse", md: "row" }}
+          marginY={2}
+          spacing={3}
+        >
+          <Stack padding={1} spacing={0.5}>
             <Typography variant="h6">Youtube App</Typography>
             <Typography variant="subtitle1">
               This app uses Youtube v3 from RapidAPI and is fully responsive.
@@ -80,7 +84,7 @@ const Projects = () => {
               makes api request for the channels.
             </Typography>
             <Typography variant="subtitle1">Tech used:</Typography>
-            <Stack direction="row" spacing={1}>
+            <Stack direction="row" gap={1} display="flex" flexWrap="wrap">
               <Paper>
                 <Typography padding={1}>React</Typography>
               </Paper>
@@ -122,8 +126,12 @@ const Projects = () => {
             <img className="projects-img" src={youtube} />
           </Paper>
         </Stack>
-        <Stack direction="row" marginY={2} spacing={3}>
-          <Stack padding={3} spacing={0.5}>
+        <Stack
+          direction={{ xs: "column-reverse", md: "row" }}
+          marginY={2}
+          spacing={3}
+        >
+          <Stack padding={1} spacing={0.5}>
             <Typography variant="h6">Meetup Events App</Typography>
             <Typography variant="subtitle1">
               This app uses Firebase for user autorization and Firestore. For
@@ -131,7 +139,7 @@ const Projects = () => {
               email: dummymail@gmail.com pass: dummypass123
             </Typography>
             <Typography variant="subtitle1">Tech used:</Typography>
-            <Stack direction="row" spacing={1}>
+            <Stack direction="row" gap={1} display="flex" flexWrap="wrap">
               <Paper>
                 <Typography padding={1}>React</Typography>
               </Paper>
