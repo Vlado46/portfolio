@@ -31,9 +31,9 @@ const About = () => {
               <br />
               <Typography sx={{ typography: { xs: "body1", sm: "subtitle1" } }}>
                 In my free time i like being outdore. I love coffe and
-                occasional drink with friends. Staying in shape i important to
+                occasional drink with friends. Staying in shape is important to
                 me, so i try to spend some time working out every now and then.
-                Good roadtrip is allways welcom.
+                Good road trip is always welcom.
               </Typography>
             </Box>
           </Stack>
