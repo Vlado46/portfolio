@@ -19,21 +19,22 @@ const About = () => {
             <img className="about-img" src={img} />
             <Box padding={3}>
               <Typography sx={{ typography: { xs: "body1", sm: "subtitle1" } }}>
-                Last couple of years i dedicated my self on web development
-                focusing on MERN stack. For now i am trying to perfect my
-                frontend skills like HTML, CSS, Javascript, Typescript, React,
-                React-native, MaterialUI and i have basic knowledge of Node.js,
-                MongoDB, Next.js. I am self tought web developer and i am don't
-                have previous work experiance but i am passionate in what i do
-                and i confident i can fit in with team of more experianced
-                developers that can halp me improve my skills.
+                For the last few years, I have been dedicated my self on web
+                development focusing on MERN stack. Right now I am trying to
+                perfect my front-end skills such as HTML, CSS, Javascript,
+                Typescript, React, React-native, MaterialUI and have basic
+                knowledge of Node.js, MongoDB, Next.js. I am a self-tought web
+                developer and have no previous work experiance, but I am
+                passionate about what I do and I am confident I can fit into a
+                team of more experianced developers who can halp me improve my
+                skills.
               </Typography>
               <br />
               <Typography sx={{ typography: { xs: "body1", sm: "subtitle1" } }}>
-                In my free time i like being outdore. I love coffe and
-                occasional drink with friends. Staying in shape is important to
-                me, so i try to spend some time working out every now and then.
-                Good road trip is always welcom.
+                In my free time I enjoy being outdoors. I love coffee and
+                occasional drink with friends. It's important to me to stay in
+                shape, so I try to spend some time working out every now and
+                then. A good road trip is always welcome.
               </Typography>
             </Box>
           </Stack>
