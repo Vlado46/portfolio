@@ -22,12 +22,12 @@ const About = () => {
                 For the last few years, I have been dedicated my self on web
                 development focusing on MERN stack. Right now I am trying to
                 perfect my front-end skills such as HTML, CSS, Javascript,
-                Typescript, React, React-native, MaterialUI and have basic
-                knowledge of Node.js, MongoDB, Next.js. I am a self-tought web
-                developer and have no previous work experiance, but I am
-                passionate about what I do and I am confident I can fit into a
-                team of more experianced developers who can halp me improve my
-                skills.
+                Typescript, React, React-native, MaterialUI, I have basic
+                knowledge of Node.js, MongoDB, Next.js and recently I started
+                learning C#. I am a self-tought web developer and have no
+                previous work experiance, but I am passionate about what I do
+                and I am confident I can fit into a team of more experianced
+                developers who can halp me improve my skills.
               </Typography>
               <br />
               <Typography sx={{ typography: { xs: "body1", sm: "subtitle1" } }}>
